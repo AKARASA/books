@@ -1,13 +1,13 @@
 pipeline {
 agent any
 stages {
-stage('version){
+stage('version'){
 steps
 {
 sh 'python3 --version'
 }
 }
-stage('hello){
+stage('hello'){
 steps {
 sh 'python3 hello.py'
 }
